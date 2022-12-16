@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+     
+}
+
+body{
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+}
+
+.card{
+    border: 1px solid red;
+    border-radius: 8px;
+    width: max-content;
+    margin: 50px auto;
+    background-color: rgb(113, 7, 7);
+    color: white;
+}
+
+ .loading{
+    visibility: hidden;
+    max-height: 40px;
+    position: relative;
+}
+
+.loading:after{
+    visibility: visible;
+    content: 'loading......';
+    color:white;
+    position: absolute;
+    top: 0px;
+}
